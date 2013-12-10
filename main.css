@@ -14,7 +14,7 @@ float:left;
 .midl {
 width:10%;
 float:left;
-clear:both
+clear:both;
 }
 .midc {
 width:80%;
@@ -45,4 +45,29 @@ text-align:center;
 
 .ph p {
 
+}
+
+@media only screen and (min-width: 321px) and (max-width: 768px) {
+.midl {
+width:2%;
+}
+.midc {
+width:96%;
+}
+.midr {
+width:2%;
+}
+}
+
+@media only screen and (min-width: 0px) and (max-width: 320px) {
+.midl {
+width:1%;
+clear:both;
+}
+.midc {
+width:100%;
+}
+.midr {
+width:1%;
+}
 }
