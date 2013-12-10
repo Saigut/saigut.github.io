@@ -1,73 +1,112 @@
 .topl {
-width:10%;
-float:left;
+    width:10%;
+    float:left;
 }
 .topc {
-width:80%;
-float:left;
+    width:80%;
+    float:left;
 }
 .topr {
-width:10%;
-float:left;
+    width:10%;
+    float:left;
 }
 
 .midl {
-width:10%;
-float:left;
-clear:both;
+    width:10%;
+    float:left;
+    clear:both;
 }
 .midc {
-width:80%;
-float:left;
+    width:80%;
+    float:left;
+}
+.midcl {
+    width:0%;
+    float:left;
+}
+.midcc {
+    width:100%;
+    float:left;
+}
+.midcr {
+    width:0%;
+    float:left;
 }
 .midr {
-width:10%;
-float:left;
+    width:10%;
+    float:left;
 }
 
 .btml {
-width:10%;
-float:left;
-clear:both;
+    width:10%;
+    float:left;
+    clear:both;
 }
 .btmc {
-width:80%;
-float:left;
+    width:80%;
+    float:left;
 }
 .btmr {
-width:10%;
-float:left;
+    width:10%;
+    float:left;
 }
 
-.hl h2 {
-text-align:center;
+.hl {
+    text-align:center;
 }
 
-.ph p {
+.ph {
 
 }
 
 @media only screen and (min-width: 321px) and (max-width: 768px) {
-.midl {
-width:2%;
-}
-.midc {
-width:96%;
-}
-.midr {
-width:2%;
-}
+    .midl {
+	width:100%;
+    }
+    .midc {
+	width:100%;
+	clear:both;
+    }
+    .midcl {
+	width:2%;
+	float:left;
+    }
+    .midcc {
+	width:96%;
+	float:left;
+    }
+    .midcr {
+	width:2%;
+	float:left;
+    }
+    .midr {
+	width:100%;
+	clear:both;
+    }
 }
 
 @media only screen and (min-width: 0px) and (max-width: 320px) {
-.midl {
-width:1%;
-clear:both;
-}
-.midc {
-width:100%;
-}
-.midr {
-width:1%;
-}
+    .midl {
+	width:100%;
+    }
+    .midc {
+	width:100%;
+	clear:both;
+    }
+    .midcl {
+	width:1%;
+	float:left;
+    }
+    .midcc {
+	width:98%;
+	float:left;
+    }
+    .midcr {
+	width:1%;
+	float:left;
+    }
+    .midr {
+	width:100%;
+	clear:both;
+    }
 }
