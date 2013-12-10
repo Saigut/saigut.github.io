@@ -1,7 +1,48 @@
-.div h2 {
-    align:center;
+.topl {
+width:10%;
+float:left;
+}
+.topc {
+width:80%;
+float:left;
+}
+.topr {
+width:10%;
+float:left;
 }
 
-.div p {
-    align:center;
+.midl {
+width:10%;
+float:left;
+clear:both
+}
+.midc {
+width:80%;
+float:left;
+}
+.midr {
+width:10%;
+float:left;
+}
+
+.btml {
+width:10%;
+float:left;
+clear:both;
+}
+.btmc {
+width:80%;
+float:left;
+}
+.btmr {
+width:10%;
+float:left;
+}
+
+.hl h2 {
+text-align:center;
+}
+
+.ph p {
+
 }
