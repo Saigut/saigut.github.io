@@ -1,3 +1,13 @@
+.atclist ol {
+    list-style-type:upper-roman;
+}
+.atclist a:link {
+    color:#00e;
+}
+.atclist a:visited {
+    color:#00e;
+}
+
 .topl {
     width:10%;
     float:left;
