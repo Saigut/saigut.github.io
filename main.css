@@ -39,16 +39,16 @@
 
 .btml {
     width:10%;
-    float:left;
+    float:right;
     clear:both;
 }
 .btmc {
     width:80%;
-    float:left;
+    float:right;
 }
 .btmr {
     width:10%;
-    float:left;
+    float:right;
 }
 
 .hl {
@@ -83,8 +83,19 @@
 	width:100%;
 	clear:both;
     }
+    .btml {
+	width:100%;
+	text-align:center;
+    }
+    .btmc {
+	width:100%;
+	clear:both;
+    }
+    .btmr {
+	width:100%;
+	clear:both;
+    }
 }
-
 @media only screen and (min-width: 0px) and (max-width: 320px) {
     .midl {
 	width:100%;
@@ -94,18 +105,27 @@
 	clear:both;
     }
     .midcl {
-	width:1%;
-	float:left;
+	width:2%;
     }
     .midcc {
-	width:98%;
-	float:left;
+	width:96%;
     }
     .midcr {
-	width:1%;
-	float:left;
+	width:2%;
     }
     .midr {
+	width:100%;
+	clear:both;
+    }
+    .btml {
+	width:100%;
+	text-align:center;
+    }
+    .btmc {
+	width:100%;
+	clear:both;
+    }
+    .btmr {
 	width:100%;
 	clear:both;
     }
