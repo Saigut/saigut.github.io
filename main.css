@@ -1,3 +1,12 @@
+.home {
+    text-align:center;
+}
+.home a:link {
+    color:#00e;
+}
+.home a:visited {
+    color:#00e;
+}
 .atclist ol {
     list-style-type:upper-roman;
 }
