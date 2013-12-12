@@ -79,17 +79,6 @@
 }
 
 @media only screen and (min-width: 321px) and (max-width: 768px) {
-    .topl {
-	width:100%;
-    }
-    .topc {
-	width:100%;
-	clear:both;
-    }
-    .topr {
-	width:100%;
-	clear:both;
-    }
     .midl {
 	width:100%;
     }
@@ -127,17 +116,6 @@
     }
 }
 @media only screen and (min-width: 0px) and (max-width: 320px) {
-    .topl {
-	width:100%;
-    }
-    .topc {
-	width:100%;
-	clear:both;
-    }
-    .topr {
-	width:100%;
-	clear:both;
-    }
     .midl {
 	width:100%;
     }
